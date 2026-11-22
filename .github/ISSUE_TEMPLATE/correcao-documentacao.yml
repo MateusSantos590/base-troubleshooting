@@ -1,0 +1,47 @@
+name: Correção na documentação
+description: Aponte um erro, trecho confuso ou informação desatualizada em um guia.
+title: "[KB-XX] Descreva a correção em poucas palavras"
+labels: ["documentação"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Este repositório é público.** Não inclua dados reais de atendimento: nomes, e-mails, IPs internos, URLs com tokens ou prints corporativos.
+        Issues **não são canal de suporte técnico**.
+  - type: input
+    id: guia
+    attributes:
+      label: Guia ou documento
+      description: ID do guia (ex.: KB-07) ou nome do arquivo (ex.: docs/GLOSSARIO.md).
+    validations:
+      required: true
+  - type: textarea
+    id: trecho
+    attributes:
+      label: Trecho atual
+      description: Copie o trecho que precisa de correção.
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qual é o problema?
+      description: Está errado, confuso, desatualizado ou falta algo?
+    validations:
+      required: true
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Como deveria ficar?
+  - type: input
+    id: fonte
+    attributes:
+      label: Referência pública
+      description: Link para documentação oficial que sustente a correção.
+  - type: checkboxes
+    id: confirmacao
+    attributes:
+      label: Confirmação
+      options:
+        - label: Confirmo que esta issue não contém dados reais de atendimento nem informações sensíveis.
+          required: true
