@@ -1,8 +1,29 @@
 # Modelo de chamado e passagem ao N2
 
-[← Voltar à base](../README.md) · Versão 1.1 · 10/11/2026
+[← Voltar à base](../README.md) · [Método](METODO.md) · Versão 2.0 · 22/11/2026
 
-Copie os campos para o sistema autorizado. **Este repositório é público: não abra issues com dados de atendimento real.** Identificadores, telas e saídas de comandos devem ficar no canal interno apropriado.
+> **Em uma frase:** um bom chamado conta a história do problema de forma que **qualquer pessoa** consiga continuar o atendimento sem refazer nenhum teste.
+
+> [!CAUTION]
+> Copie os campos para o **sistema autorizado** da empresa. Este repositório é público: **não abra issues com dados de atendimento real.** Identificadores, telas e saídas de comandos ficam no canal interno apropriado.
+
+## Por que registrar bem?
+
+Pense no prontuário de um hospital: o médico do plantão seguinte lê o que foi feito e continua o tratamento, sem repetir exames. Um chamado bem escrito faz o mesmo: evita retrabalho, acelera o N2 e mostra padrões quando o mesmo problema aparece em vários chamados.
+
+## Como usar este modelo
+
+| Momento do atendimento | Seção a preencher |
+|---|---|
+| Ao receber o pedido | [1. Abertura e triagem](#1-abertura-e-triagem) |
+| A cada teste feito | [2. Histórico de diagnóstico](#2-histórico-de-diagnóstico) — uma linha por teste |
+| Ao aplicar uma solução | [3. Ação e validação](#3-ação-e-validação) |
+| Se precisar de outra equipe | [4. Encaminhamento ao N2](#4-encaminhamento-ao-n2) |
+| Para ver um exemplo pronto | [5. Exemplo fictício preenchido](#5-exemplo-fictício-preenchido) |
+| Para falar com o usuário | [6. Mensagens curtas ao usuário](#6-mensagens-curtas-ao-usuário) |
+
+> [!TIP]
+> **Regra de ouro da escrita:** separe sempre o que você **fez**, o que você **viu** e o que você **acha**. "Reiniciei o roteador (fiz), a internet voltou (vi), provavelmente era o roteador (acho — hipótese, não causa confirmada)."
 
 ## 1. Abertura e triagem
 
@@ -67,7 +88,7 @@ Encaminhar não significa abandonar o usuário: mantenha o responsável e o pró
 
 ## 5. Exemplo fictício preenchido
 
-**Cenário:** o usuário de laboratório não consegue enviar mensagens pelo Outlook clássico. O teste abaixo é simulado para demonstrar escrita, não uma execução comprovada do projeto.
+**Cenário** (baseado no [KB-13](../guias/kb-13-outlook-nao-envia-recebe.md))**:** o usuário de laboratório não consegue enviar mensagens pelo Outlook clássico. O teste abaixo é simulado para demonstrar escrita, não uma execução comprovada do projeto.
 
 | Etapa | Registro do exemplo |
 |---|---|
