@@ -5,7 +5,7 @@
 Toda palavra técnica usada nos guias está aqui, explicada como você explicaria para alguém da família. Se algum termo faltar, [sugira a inclusão](../CONTRIBUTING.md).
 
 > [!TIP]
-> Não tente decorar a lista. Volte aqui quando um guia usar uma palavra que você não conhece — é assim que o vocabulário gruda.
+> Não tente decorar a lista. Volte aqui quando um guia usar uma palavra que você não conhece — é assim que o vocabulário gruda. Para códigos e mensagens de erro, use o [dicionário de mensagens de erro](MENSAGENS_DE_ERRO.md).
 
 **Atalhos:** [Atendimento](#atendimento) · [Rede e internet](#rede-e-internet) · [Windows e hardware](#windows-e-hardware) · [Contas e segurança](#contas-e-segurança) · [E-mail e sistemas](#e-mail-e-sistemas)
 
@@ -61,6 +61,9 @@ Toda palavra técnica usada nos guias está aqui, explicada como você explicari
 | **Switch** | Equipamento com várias portas que interliga os cabos de rede. | Uma régua de tomadas, só que para dados. |
 | **Firewall** | Filtro que permite ou bloqueia tráfego conforme regras. | O segurança na entrada do evento. |
 | **VPN** | Conexão protegida que coloca o computador "dentro" da rede da empresa, mesmo de casa. | Um túnel particular da sua casa até o escritório. |
+| **Pasta compartilhada / caminho UNC** | Pasta em outro computador ou servidor, acessada pela rede com o formato `\\servidor\pasta`. | Uma sala em outro prédio, com endereço próprio. |
+| **Unidade mapeada** | Letra (ex.: `S:`) que funciona como atalho para uma pasta compartilhada. | Uma chave no chaveiro com etiqueta. |
+| **Porta (de rede)** | Número que identifica um serviço dentro de um servidor (ex.: `443` para HTTPS). | O número da loja dentro de um shopping. |
 | **Túnel** | O canal protegido criado pela VPN. | O próprio túnel da analogia acima. |
 | **URL** | O endereço completo de uma página, como `https://sistema.empresa/login`. | O endereço completo com rua, número e apartamento. |
 | **HTTPS / certificado** | Conexão criptografada. O certificado prova que o site é quem diz ser. **Nunca ignore alertas de certificado.** | O documento com foto que o porteiro confere. |
@@ -84,6 +87,16 @@ Toda palavra técnica usada nos guias está aqui, explicada como você explicari
 | **Dock / adaptador** | Acessório que adiciona portas (vídeo, rede, USB) ao notebook. | Um "T" de tomada. |
 | **Modo de projeção** | Como o Windows usa o segundo monitor: duplicar, estender ou só uma tela (`Win + P`). | Espelhar ou estender a tela do celular na TV. |
 | **USB-C** | Formato de conector. **Nem toda porta USB-C transmite vídeo.** | Tomadas iguais que nem sempre têm a mesma voltagem. |
+| **Tela azul (BSOD) / código de parada** | Parada de emergência do Windows diante de um erro grave, com um código que indica a família da causa. Em versões recentes do Windows 11, a tela pode ser preta. | O disjuntor que desarma para evitar incêndio. |
+| **Monitor de Confiabilidade** | Ferramenta (`perfmon /rel`) que mostra, dia a dia, falhas e instalações. | O diário de bordo do computador. |
+| **Visualizador de Eventos** | Ferramenta que guarda os registros técnicos (logs) do Windows. | A caixa-preta do avião. |
+| **Gerenciador de Dispositivos** | Lista de todo o hardware que o Windows reconhece e o estado dos drivers. | A lista de chamada da turma. |
+| **BitLocker** | Criptografia do disco. Pode pedir uma **chave de recuperação** após mudanças de hardware ou falhas. A chave fica com a empresa. | Um cofre que só abre com a combinação guardada no banco. |
+| **Windows Update** | Serviço que instala correções e novas versões do Windows. Na empresa, costuma ser controlado pela TI. | A reforma programada do prédio. |
+| **Inicialização rápida** | Recurso que faz o "Desligar" guardar parte do sistema para ligar mais rápido. Por isso, **Reiniciar** é o que garante um recomeço completo. | Cochilar em vez de dormir a noite toda. |
+| **Capacidade da bateria (Design × Full Charge)** | Quanto a bateria guardava nova × quanto guarda hoje. A diferença mostra o desgaste. | A caixa-d'água que encolheu com os anos. |
+| **Privacidade da câmera/microfone** | Permissões do Windows que decidem quais aplicativos podem usar câmera e microfone. | A portaria que decide quem pode entrar. |
+| **Dispositivo de saída / entrada de áudio** | Saída = por onde o som sai (alto-falante, fone, monitor). Entrada = por onde o som entra (microfone). | Torneira × ralo. |
 
 ## Contas e segurança
 
@@ -98,6 +111,12 @@ Toda palavra técnica usada nos guias está aqui, explicada como você explicari
 | **Autoatendimento de senha (SSPR)** | Portal onde a própria pessoa redefine ou desbloqueia a senha, se a empresa habilitou. | O "esqueci minha senha" do banco. |
 | **Validação de identidade** | Procedimento da empresa para confirmar que quem pede é mesmo o dono da conta. | Pedir documento antes de entregar uma encomenda. |
 | **SSO (login único)** | Entrar uma vez e acessar vários sistemas. | Uma pulseira de evento que libera várias áreas. |
+| **Phishing** | Golpe que usa uma mensagem falsa (e-mail, SMS, ligação) para fazer a pessoa clicar, entregar a senha ou pagar algo. | A isca no anzol. |
+| **Engenharia social** | Manipular pessoas (com urgência, autoridade ou simpatia) para obter acesso ou informação. | O falso funcionário do banco ao telefone. |
+| **MFA fatigue (fadiga de MFA)** | Golpe que envia vários pedidos de aprovação seguidos, esperando que a vítima aprove por cansaço. | Tocar a campainha sem parar até alguém abrir. |
+| **Aplicativo autenticador** | Aplicativo no celular que gera códigos temporários ou recebe pedidos de aprovação de login. | A chave física do cofre. |
+| **Acesso condicional** | Regras que liberam ou bloqueiam o login dependendo do dispositivo, do local ou do risco. | O segurança que só deixa entrar com crachá **e** pela porta certa. |
+| **Incidente de segurança** | Evento que pode ter comprometido contas, dados ou equipamentos. Segue um processo próprio, mais rápido que o de chamado comum. | O alarme de incêndio, que passa à frente da fila. |
 | **Autenticação × autorização** | Autenticação = provar **quem** você é. Autorização = o que você **pode** fazer. | Entrar no prédio (autenticação) × ter a chave de uma sala específica (autorização). |
 | **Conformidade do dispositivo** | Regras que o computador precisa cumprir (antivírus ativo, sistema atualizado) para acessar recursos. | O detector de metais antes de entrar no avião. |
 
@@ -117,6 +136,13 @@ Toda palavra técnica usada nos guias está aqui, explicada como você explicari
 | **Sessão / cookies** | Dados que o navegador guarda para lembrar que você está logado. | A pulseira do hotel que prova que você é hóspede. |
 | **Janela privativa (anônima)** | Janela do navegador sem cookies e, em geral, sem extensões. Ajuda a isolar problemas de sessão. | Entrar na loja sem o cartão de fidelidade. |
 | **Identificador de correlação** | Código que alguns sistemas mostram no erro para a equipe localizar o registro técnico. | O número do protocolo de atendimento. |
+| **Microsoft Teams (novo × clássico)** | Aplicativo de chat e reuniões. O Teams clássico foi substituído pelo **novo Teams**, com outros caminhos de cache e configuração. | Dois modelos do mesmo carro. |
+| **OneDrive / SharePoint** | Armazenamento de arquivos na nuvem da Microsoft. OneDrive = arquivos pessoais; SharePoint/Teams = arquivos da equipe. | Seu armário pessoal × o arquivo do departamento. |
+| **Sincronização** | Manter a mesma versão de um arquivo no computador e na nuvem. | O carteiro que leva e traz as cópias atualizadas. |
+| **Coautoria** | Várias pessoas editando o mesmo arquivo ao mesmo tempo, na nuvem. | Um quadro branco em que todos escrevem juntos. |
+| **Histórico de versões** | Cópias anteriores de um arquivo, guardadas automaticamente na nuvem. | A fotocópia de ontem guardada pela biblioteca. |
+| **Modo de Exibição Protegido** | Modo do Office que abre arquivos vindos da internet ou de e-mail só para leitura, até o usuário decidir confiar. | Ler um livro raro com luvas, sem poder rabiscar. |
+| **Mensagem de devolução (NDR)** | E-mail automático informando que uma mensagem não foi entregue, com um código como `5.1.1`. | A carta que volta com o carimbo "destinatário desconhecido". |
 
 ---
 

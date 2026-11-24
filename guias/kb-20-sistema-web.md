@@ -115,4 +115,4 @@ O código de erro que aparece funciona como uma placa na porta, indicando qual d
 
 ---
 
-[← Anterior: KB-19](kb-19-segundo-monitor.md) · [↑ Índice](../README.md#indice)
+[← Anterior: KB-19](kb-19-segundo-monitor.md) · [↑ Índice](../README.md#indice) · [Próximo: KB-21 →](kb-21-teams-reuniao.md)

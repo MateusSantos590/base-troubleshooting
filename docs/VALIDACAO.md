@@ -1,6 +1,6 @@
 # Plano de validação em laboratório
 
-[← Voltar à base](../README.md) · [Método](METODO.md) · Versão documental 2.0 · 22/11/2026
+[← Voltar à base](../README.md) · [Método](METODO.md) · Versão documental 3.0 · 24/11/2026
 
 > **Em uma frase:** este plano transforma cada guia em um experimento — você provoca o problema num ambiente seguro, segue o guia e anota o que **realmente** aconteceu.
 
@@ -13,7 +13,7 @@ Um guia escrito é uma **receita que ninguém cozinhou ainda**. Pode estar certa
 
 ## Como usar este plano, em 5 passos
 
-1. **Escolha um cenário** na tabela [Roteiro dos 20 cenários](#roteiro-dos-20-cenários).
+1. **Escolha um cenário** na tabela [Roteiro dos cenários](#roteiro-dos-cenários).
 2. **Prepare o ambiente** conforme a seção abaixo e anote como voltar ao estado original.
 3. **Reproduza o sintoma** descrito na pré-condição.
 4. **Siga o guia** passo a passo, anotando o que você viu em cada etapa.
@@ -36,7 +36,7 @@ Antes de alterar algo, registre a configuração original, confirme como restaur
 
 Aprovar um caso não valida outras versões, modelos ou redes. Uma leitura do texto é revisão documental, não teste funcional.
 
-## Roteiro dos 20 cenários
+## Roteiro dos cenários
 
 Todos os casos iniciam com status **Não executado**. As situações abaixo são propostas; não execute mudanças em infraestrutura compartilhada para reproduzi-las.
 
@@ -62,6 +62,18 @@ Todos os casos iniciam com status **Não executado**. As situações abaixo são
 | [KB-18](../guias/kb-18-microfone.md) | Microfone próprio e aplicativo de teste | Comparar medidor do Windows e chamada, com entrada/permissão corretas |
 | [KB-19](../guias/kb-19-segundo-monitor.md) | Monitor, cabo e porta compatíveis | Comparar entrada/cabo/projeção e validar imagem estável |
 | [KB-20](../guias/kb-20-sistema-web.md) | Aplicação de teste com cenários de sessão e erro conhecidos | Diferenciar falha de rede, autenticação, autorização e servidor; concluir tarefa |
+| [KB-21](../guias/kb-21-teams-reuniao.md) | Teams de teste instalado e conta fictícia | Comparar aplicativo e web; limpar cache com o aplicativo fechado e validar entrada em reunião de teste |
+| [KB-22](../guias/kb-22-onedrive-sincronizacao.md) | Conta de teste com arquivo de nome inválido e sincronização pausada | Interpretar ícones e mensagens, corrigir o item e comprovar a versão na web |
+| [KB-23](../guias/kb-23-pasta-de-rede.md) | Compartilhamento de laboratório com e sem permissão | Diferenciar caminho não encontrado de acesso negado usando `net use`, `nslookup` e caminho direto |
+| [KB-24](../guias/kb-24-arquivo-office-bloqueado.md) | Arquivo descartável aberto em duas sessões e com histórico de versões | Identificar o bloqueio, liberar e restaurar versão conferida |
+| [KB-25](../guias/kb-25-windows-update.md) | Máquina virtual própria com atualização pendente | Registrar código, distinguir Desligar × Reiniciar e validar histórico de atualização |
+| [KB-26](../guias/kb-26-tela-azul.md) | Máquina virtual própria com histórico no Monitor de Confiabilidade | Localizar falhas e mudanças na linha do tempo sem provocar falha em equipamento real |
+| [KB-27](../guias/kb-27-computador-nao-liga.md) | Computador próprio com cabo de energia ou de vídeo desconectado | Classificar o cenário (sem energia / sem imagem / não inicia) e restaurar |
+| [KB-28](../guias/kb-28-notebook-nao-carrega.md) | Notebook próprio | Gerar e interpretar o relatório de bateria; testar tomada e porta |
+| [KB-29](../guias/kb-29-mfa-autenticador.md) | Conta fictícia com dois métodos de MFA | Registrar novo método por autoatendimento sem que o código passe pelo suporte |
+| [KB-30](../guias/kb-30-email-suspeito.md) | Simulação de phishing autorizada pela segurança | Relatar a mensagem pelo canal oficial e aplicar a tabela de gravidade |
+| [KB-31](../guias/kb-31-webcam.md) | Webcam própria com permissão de privacidade desativada | Comparar aplicativo Câmera e aplicativo de reunião; restaurar permissão |
+| [KB-32](../guias/kb-32-sem-som.md) | Computador com duas saídas de áudio | Identificar a saída ativa, corrigir e validar som no aplicativo |
 
 ## Registro de execução — copiar por cenário
 

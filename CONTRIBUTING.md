@@ -15,6 +15,8 @@ Obrigado por querer melhorar esta base! Toda correção, por menor que seja, aju
 |---|---|
 | Apontar um erro ou trecho confuso | Abra uma [issue](https://github.com/MateusSantos590/base-troubleshooting/issues/new/choose) com o modelo **Correção na documentação** |
 | Sugerir um termo para o glossário | Abra uma issue informando o termo e onde ele aparece |
+| Sugerir uma mensagem de erro | Abra uma issue com o texto ou código exato (sem dados reais) e a fonte oficial que explica o significado |
+| Propor um caso prático | Descreva o chamado como o usuário contaria, a primeira pergunta, o raciocínio e o guia de destino |
 | Registrar um teste de laboratório | Use o [registro de execução](docs/VALIDACAO.md#registro-de-execução--copiar-por-cenário), com dados fictícios ou anonimizados |
 | Corrigir o texto você mesmo | Faça um fork, altere e abra um pull request |
 

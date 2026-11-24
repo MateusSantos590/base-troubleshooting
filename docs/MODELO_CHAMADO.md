@@ -1,6 +1,6 @@
 # Modelo de chamado e passagem ao N2
 
-[← Voltar à base](../README.md) · [Método](METODO.md) · Versão 2.0 · 22/11/2026
+[← Voltar à base](../README.md) · [Método](METODO.md) · Versão 3.0 · 24/11/2026
 
 > **Em uma frase:** um bom chamado conta a história do problema de forma que **qualquer pessoa** consiga continuar o atendimento sem refazer nenhum teste.
 
@@ -109,5 +109,7 @@ Encaminhar não significa abandonar o usuário: mantenha o responsável e o pró
 **Encaminhamento:** “A falha continua após os testes registrados. Encaminhei para a equipe responsável com essas informações. O próximo contato está previsto para o horário combinado no chamado.”
 
 **Encerramento:** “Repetimos a tarefa e ela funcionou no teste. Registrei o procedimento. Se a falha voltar, informe este chamado e o horário da nova ocorrência.”
+
+Para mais modelos e para situações difíceis (usuário irritado, pedido fora da política), veja [Comunicação com o usuário](COMUNICACAO.md).
 
 Use somente a mensagem compatível com o que realmente aconteceu. Ajuste o prazo ao compromisso registrado; não copie a frase de encerramento sem validar a tarefa.
