@@ -1,8 +1,8 @@
 # O método — como pensar diante de qualquer problema
 
-[← Voltar ao início](../README.md) · [Glossário](GLOSSARIO.md) · [Comandos](COMANDOS.md)
+[← Voltar ao início](../README.md) · [Glossário](GLOSSARIO.md) · [Comandos](COMANDOS.md) · [Dicas](DICAS.md) · [Comunicação](COMUNICACAO.md)
 
-Os 20 guias desta base usam **o mesmo raciocínio**. Se você entender esta página, vai conseguir atender até problemas que não estão aqui.
+Os 32 guias desta base usam **o mesmo raciocínio**. Se você entender esta página, vai conseguir atender até problemas que não estão aqui.
 
 ---
 
@@ -118,7 +118,7 @@ Faça estas perguntas antes de qualquer teste. Elas cabem em dois minutos de con
 | Melhorou, mas a causa não foi confirmada | Registra como **contorno**; não atribui causa definitiva |
 | Depende de outra equipe ou de permissão que você não tem | Encaminha com testes, evidências e um pedido específico, sem inventar prazo |
 | Várias pessoas foram afetadas de repente | Verifica se há incidente conhecido e aciona o fluxo de indisponibilidade |
-| Indício de fraude, vazamento ou vírus | **Para tudo** e aciona o processo de segurança |
+| Indício de fraude, vazamento ou vírus | **Para tudo** e aciona o processo de segurança ([KB-30](../guias/kb-30-email-suspeito.md)) |
 
 Encaminhar não é fracasso: é reconhecer o limite da sua permissão. Encaminhar **sem evidências**, sim, é um problema.
 
@@ -158,5 +158,7 @@ Encaminhar não é fracasso: é reconhecer o limite da sua permissão. Encaminha
 3. Explique para alguém que nunca trabalhou com TI por que testar "uma coisa por vez" economiza tempo, mesmo parecendo mais lento.
 
 ---
+
+Quer treinar? Resolva os [casos práticos](CASOS_PRATICOS.md), que misturam problemas de vários guias.
 
 [← Voltar ao início](../README.md) · Próximo: [Glossário →](GLOSSARIO.md)
